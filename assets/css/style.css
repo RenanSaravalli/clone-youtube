@@ -1,0 +1,40 @@
+@import url('reset.css');
+
+.navigation {
+    padding: 0px 24px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 404px;
+    
+}
+
+.search-container #search {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+.search-container button {
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+
+.navigation .left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.navigation .right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}

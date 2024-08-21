@@ -21,10 +21,6 @@ ul {
     -webkit-font-smoothing: antialiased;
   }
  
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
  
   input, button, textarea, select {
     font: inherit;
@@ -37,4 +33,13 @@ ul {
     isolation: isolate;
   }
 
-  
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #515151;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 14px;
+  }

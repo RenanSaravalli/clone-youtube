@@ -1,5 +1,13 @@
 @import url('reset.css');
 
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
 .navigation {
     padding: 0px 24px;
     height: 56px;
@@ -40,16 +48,19 @@
 }
 
 main {
-    max-width: 952px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    
 }
 
 .content {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    margin-top: 16px;
+    max-width: 952px;
     gap: 16px;
+
 }
 
 .content .img-video {
@@ -70,17 +81,6 @@ main {
     align-items: center;
 }
 
-.channel h2 {
-    font-weight: 600;
-    font-size: 14px;
-}
-
-.channel p {
-    font-weight: 400;
-    font-size: 14px;
-    color: #515151;
-}
-
 .channel-info {
     display: flex;
     gap: 12px;
@@ -97,17 +97,6 @@ main {
     flex-flow: column;
     gap: 0px;
     height: 32px;
-}
-
-.channel-name h2 {
-    font-weight: 600;
-    font-size: 14px;
-}
-
-.channel-name p {
-    font-weight: 400;
-    font-size: 14px;
-    color: #515151;
 }
 
 .channel .sign-up {
@@ -151,13 +140,23 @@ main {
     
 }
 
-.video-description h2 {
-    font-weight: 600;
-    font-size: 14px;
+aside {
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
 }
 
-.video-description p {
-    font-weight: 400;
-    font-size: 14px;
-    color: #515151;
+.sidebar-video {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+}
+
+
+.infos {
+    max-width: 196px;
+}
+
+.infos p {
+    font-size: 12px;
 }
